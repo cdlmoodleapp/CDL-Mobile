@@ -1,5 +1,5 @@
 {
-"app_id" : "com.schoolmate",
+"app_id" : "com.cdlmobile",
 "versioncode" : "001",
 "versionname" : "1.0",
 "cache_expiration_time" : 300000,
@@ -8,7 +8,7 @@
 "plugins" : ["notifications", "upload", "events", "myfiles", "contents","resource", "participants", "grades","addcontact", "addnote", "sendmessage", "mootes14", "page"],
 "wsservice" : "moodle_mobile_app",
 "wsextservice" : "local_mobile",
-"presets" : {"url": "http://sylmultimedia.com/m", "username": ""},
+"presets" : {"url": "http://197.211.47.83/portal", "username": ""},
 "sync_ws_on" : true,
 "sync_lang_on" : true,
 "sync_css_on" : true,
@@ -22,5 +22,5 @@
 "demo_sites": [],
 "notifications_enabled": true,
 "gcmpn": "694767596569",
-"reportbugmail": "admin@sylmultimedia.com"
+"reportbugmail": "todubela@oaucdl.edu.ng"
 }

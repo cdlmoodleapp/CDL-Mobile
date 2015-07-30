@@ -1,5 +1,5 @@
 {
-"name": "SCHOOLMATE",
+"name": "CDL MOBILE",
 "license": {
     "name": "Apache 2.0",
     "link": "http://www.apache.org/licenses/LICENSE-2.0"
@@ -8,14 +8,15 @@
 {
     "fullname": "Tosin Odubela",
     "contribution": "Main developer",
-    "company": "SYL MULTIMEDIA"
+    "company": "CENTRE FOR DISTANCE LEARNING, OAU"
 },
 {
-    "fullname": "Olayinka Odubela",
-    "contribution": "Contributor (Welfare)",
-    "company": "SYL MULTIMEDIA"
+    "fullname": "TOPE OGUNNIYI",
+    "contribution": "Programmer",
+    "company": "CENTRE FOR DISTANCE LEARNING, OAU"
 }
 ],
+
 "thirdpartylibs": [
 {
     "name": "Backbone.js",
