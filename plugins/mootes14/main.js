@@ -27,29 +27,7 @@ define(templates, function (theme, loginForm, program) {
             MM.panels.show('center', html, {title: MM.lang.s("mootes14")});
         }
     };
-    define(templates, function (theme, loginForm, aboutCDL) {
-    var plugin = {
-        settings: {
-            name: "aboutCDL",
-            type: "general",
-            menuURL: "#aboutCDL",
-            icon: "plugins/events/icon.png",
-            lang: {
-                component: "core"
-            }
-        },
-
-        routes: [
-            ["aboutCDL", "about_CDL", "showAboutCDL"]
-        ],
-
-        showAboutCDL: function() {
-            var tpl = {};
-            var html = MM.tpl.render(program, tpl);
-            MM.panels.show('center', html, {title: MM.lang.s("aboutCDL")});
-        }
-    };
-
+ 
     // Inject allways our custom theme.
     $("#mobilecssurl").html(theme);
 
