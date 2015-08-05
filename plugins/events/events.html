@@ -17,9 +17,17 @@
 	<% }); %>
 	</ul>
 
-	<p><%= MM.lang.s("groupeventsnotdisplayed") %></p>
+    <% if (!events.length) { %>
+        <p><%= MM.lang.s("noevents") %></p>
+    <% } %>
 
-	<div class="centered">
-	    <button id="events-showmore"><%= MM.lang.s("threemonthsmore") %></button>
-	</div>
+    <% if (! MM.util.wsAvailable("local_mobile_core_group_get_course_user_groups") && MM.util.wsAvailable("core_group_get_course_user_groups")) { %>
+	<p><%= MM.lang.s("groupeventsnotdisplayed") %></p>
+    <% } %>
+
+    <% if (events.length) { %>
+    	<div class="centered">
+    	    <button id="events-showmore"><%= MM.lang.s("threemonthsmore") %></button>
+    	</div>
+    <% } %>
 </div>

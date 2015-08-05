@@ -5,12 +5,12 @@
         </div>
 
         <div class="content-name mod-url">
-            <a href="<%= module.fileurl %>" target="_blank" id="link-<%= module.contentid %>" data-instance="<%= module.instance %>">
+            <a href="#assign/view/<%= courseId %>/<%= module.contentid %>" id="link-<%= module.contentid %>">
                 <div class="img app-ico">
-                    <img src="img/mod/url.png" alt="img">
+                    <img src="img/mod/assign.png" alt="img">
                 </div>
                 <div class="bd">
-                    <p><%= module.name %></p>
+                    <p><%= MM.util.formatText(module.name) %></p>
                 </div>
             </a>
         </div>
